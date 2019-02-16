@@ -1,0 +1,6 @@
+languageCode = "en-us"
+title = "now-build-sh"
+theme = "chakra"
+copyleft = "All lefts reversed."
+[params]
+  author = "krry"
