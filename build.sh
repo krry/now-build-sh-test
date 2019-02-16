@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "hostnamectl, aka Linux distro"
+print "hostnamectl, aka Linux distro"
 hostnamectl
-echo "Linux kerner version"
+print "Linux kerner version"
 uname -r
 
 # if package manager
