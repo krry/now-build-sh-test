@@ -1,0 +1,19 @@
+---
+label: Page
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    date_format: YYYY-MM-DD
+    time_format: HH:mm:ss ZZ
+    required: true
+pages:
+- content/test-page.md
