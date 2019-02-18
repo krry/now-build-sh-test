@@ -15,5 +15,3 @@ fields:
     date_format: YYYY-MM-DD
     time_format: HH:mm:ss ZZ
     required: true
-pages:
-- content/test-page.md
