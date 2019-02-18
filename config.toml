@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "now-build-sh"
-theme = "hugo-theme-terminal"
+theme = "terminal"
 paginate = 5
 [params]
   author = "krry"
