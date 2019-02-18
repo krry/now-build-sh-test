@@ -9,7 +9,6 @@ HUGO_DL=https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HU
 wget ${HUGO_DL}
 tar -xvzf hugo*.tar.gz -C /usr/local/bin
 mkdir themes
-git submodule init
-git submodule update --remote
+git clone https://github.com/panr/hugo-theme-terminal themes/terminal
 # Build with hugo-cli
 hugo -d public
